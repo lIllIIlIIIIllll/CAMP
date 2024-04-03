@@ -31,7 +31,7 @@ def binding_vec_pos(bs_str,N):
 	if bs_str == '-99999':
 		bs_vec = np.zeros(N)
 		bs_vec.fill(-99999)
-                return bs_vec
+		return bs_vec
 	else:
 		bs_list = [int(x) for x in bs_str.split(',')]
 		bs_list = [x for x in bs_list if x<N]
